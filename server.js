@@ -21,7 +21,7 @@ mongoose.connect(process.env.MONGODB_URI)
     console.log("Connection Successful")
 })
 .catch (()=>{
-    console.log("Connection error")
+    console.log("Connection error",err)
 })
 
 // Middleware
