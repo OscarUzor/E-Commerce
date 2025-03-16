@@ -1,4 +1,4 @@
-// const API_URL = 'http://localhost:5000/api';
+const API_URL = 'https://e-commerce-platform-jk6m.onrender.com';
 
 const api = {
     async request(endpoint, options = {}) {
